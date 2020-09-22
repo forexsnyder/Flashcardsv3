@@ -81,7 +81,7 @@ test:
 production:
   <<: *default
   database: flashcardsv3_production
-  adatapter:'postgresql'
+  
   # username: flashcardsv3
   # password: <%= ENV['FLASHCARDSV3_DATABASE_PASSWORD'] %>
   
